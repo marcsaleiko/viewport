@@ -1,6 +1,10 @@
 # Viewport
 Track viewport changes and react to them via callbacks
 
+## Installation
+
+Install via npm `npm install @marcsaleiko/viewport --save`. There are no dependencies, just plain vanilla javascript.
+
 ## Usage
 Include file in your script file and run `Viewport.init();`. You may use the options below to 
 override the base settings.
