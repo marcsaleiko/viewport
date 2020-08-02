@@ -22,11 +22,13 @@ viewport. The identifier may be the minWidth number or the string name of the vi
 
 The `getCurrentViewport()` method returns the currently active viewport object.
 
-It uses the Botstrap 4 media queries as viewport presets. You may override them via the settings you pass to the `init({})` method.
+It uses the Botstrap 4 media queries as viewport presets. You may override them via the 
+settings you pass to the `init({})` method.
 
 ### Options
 
-You may provide additional options and overrides via an object passed to the `init({})` method. Here is a list of all available options and their default values:
+You may provide additional options and overrides via an object passed to the `init({})` 
+method. Here is a list of all available options and their default values:
 
 ```javascript
 Viewport.init({
