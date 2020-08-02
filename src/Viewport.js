@@ -105,6 +105,18 @@ window.Viewport = (function () {
   };
 
   /**
+   * Retrieve the currently active viewport object. See settings for
+   * further information.
+   * @returns {{}}
+   */
+  app.getCurrentViewport = function() {
+    if (!active) {
+      return;
+    }
+    return activeViewport;
+  };
+
+  /**
    * Does the actual logic, retrieves viewport dimensions, applies
    * values and evaluates the active viewport and calls
    * the callback if we have a viewport change
