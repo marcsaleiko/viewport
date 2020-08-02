@@ -1,5 +1,5 @@
 /*!
- * Viewport v0.0.0
+ * Viewport v0.1.0
  * Track viewport changes and react to them via callbacks
  * MIT License
  */
