@@ -1,0 +1,19 @@
+{
+  "name": "@marcsaleiko/viewport",
+  "version": "0.0.0",
+  "description": "Track viewport changes and react to them via callbacks",
+  "browser": "src/Viewport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcsaleiko/viewport.git"
+  },
+  "author": "Marc Saleiko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcsaleiko/viewport/issues"
+  },
+  "homepage": "https://github.com/marcsaleiko/viewport#readme"
+}
