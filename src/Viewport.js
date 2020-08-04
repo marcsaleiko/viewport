@@ -113,6 +113,7 @@ window.Viewport = (function () {
     if (!active) {
       return;
     }
+    updateViewport();
     return activeViewport;
   };
 
