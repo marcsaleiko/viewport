@@ -34,6 +34,9 @@ method. Here is a list of all available options and their default values:
 Viewport.init({
     /**
      * Callback will be triggered every time the viewport changes.
+     * Keep in mind, that it will only fire if you track resize events
+     * by calling the track() method or call getCurrentViewport() and
+     * the current viewport differs from the last viewport.
      * @param activeViewport The currently active viewport object
      * @param lastViewport The previously active viewport object
      * @param width The current viewport width
