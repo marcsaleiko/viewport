@@ -22,6 +22,8 @@ viewport. The identifier may be the minWidth number or the string name of the vi
 
 The `getCurrentViewport()` method returns the currently active viewport object.
 
+Use `getWidth()` and `getHeight()` to access the current viewport width and height.
+
 It uses the Botstrap 4 media queries as viewport presets. You may override them via the 
 settings you pass to the `init({})` method.
 
