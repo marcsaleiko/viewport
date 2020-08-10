@@ -122,6 +122,24 @@ window.Viewport = (function () {
   };
 
   /**
+   * Get the current viewport width. Returns 0
+   * if app is not active.
+   * @returns {number}
+   */
+  app.getWidth = function() {
+    return width;
+  }
+
+  /**
+   * Get the current viewport height. Returns 0
+   * if app is not active.
+   * @returns {number}
+   */
+  app.getHeight = function() {
+    return height;
+  }
+
+  /**
    * Does the actual logic, retrieves viewport dimensions, applies
    * values and evaluates the active viewport and calls
    * the callback if we have a viewport change
